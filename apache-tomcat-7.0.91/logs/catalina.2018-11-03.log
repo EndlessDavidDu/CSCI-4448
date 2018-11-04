@@ -1,0 +1,988 @@
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           9.0.4+11
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/mac/Desktop/apache-tomcat-7.0.91
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/mac/Desktop/apache-tomcat-7.0.91
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/mac/Desktop/apache-tomcat-7.0.91/conf/logging.properties
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/mac/Desktop/apache-tomcat-7.0.91
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/mac/Desktop/apache-tomcat-7.0.91
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/mac/Desktop/apache-tomcat-7.0.91/temp
+Nov 03, 2018 4:01:34 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Nov 03, 2018 4:01:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 03, 2018 4:01:34 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 525 ms
+Nov 03, 2018 4:01:34 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 03, 2018 4:01:34 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 03, 2018 4:01:34 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/03.war
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-logic is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-html is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-bean is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-tiles is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-nested is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-template is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-bean is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-html is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-logic is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-nested is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-template is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-tiles is already defined
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 4:01:35 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+Nov 03, 2018 4:01:35 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+Nov 03, 2018 4:01:35 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='ApplicationResources', returnNull=true
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/03.war has finished in 953 ms
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/docs
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/docs has finished in 42 ms
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/manager
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/manager has finished in 70 ms
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/examples
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/examples has finished in 192 ms
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/ROOT
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/ROOT has finished in 32 ms
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/host-manager
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/host-manager has finished in 32 ms
+Nov 03, 2018 4:01:35 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Nov 03, 2018 4:01:35 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Nov 03, 2018 4:01:35 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1398 ms
+Nov 03, 2018 4:08:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/03] has started
+Nov 03, 2018 4:08:55 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/03] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 03, 2018 4:08:55 AM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/03] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-logic is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-html is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-bean is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-tiles is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-nested is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-template is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-bean is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-html is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-logic is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-nested is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-template is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-tiles is already defined
+Nov 03, 2018 4:08:55 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 4:08:55 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+Nov 03, 2018 4:08:55 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+Nov 03, 2018 4:08:55 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='ApplicationResources', returnNull=true
+Nov 03, 2018 4:08:55 AM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/03] is completed
+Nov 03, 2018 4:08:56 AM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 8:38:35 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 8:38:36 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+Nov 03, 2018 8:38:36 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+Nov 03, 2018 8:38:36 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+Nov 03, 2018 8:38:36 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+Nov 03, 2018 8:38:36 AM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.taglib.html.LocalStrings', returnNull=true
+Nov 03, 2018 12:54:19 PM org.apache.struts.action.RequestProcessor processException
+WARNING: Unhandled Exception thrown: class java.lang.NullPointerException
+Nov 03, 2018 12:54:21 PM org.apache.struts.action.RequestProcessor processException
+WARNING: Unhandled Exception thrown: class java.lang.NullPointerException
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.91
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Sep 13 2018 19:52:12 UTC
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.91.0
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.13.6
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           9.0.4+11
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/mac/Desktop/apache-tomcat-7.0.91
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/mac/Desktop/apache-tomcat-7.0.91
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/mac/Desktop/apache-tomcat-7.0.91/conf/logging.properties
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/mac/Desktop/apache-tomcat-7.0.91
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/mac/Desktop/apache-tomcat-7.0.91
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/mac/Desktop/apache-tomcat-7.0.91/temp
+Nov 03, 2018 6:28:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/mac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+Nov 03, 2018 6:28:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Nov 03, 2018 6:28:27 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:187)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 03, 2018 6:28:27 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:187)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+Nov 03, 2018 6:28:27 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Nov 03, 2018 6:28:27 PM org.apache.coyote.AbstractProtocol init
+SEVERE: Failed to initialize end point associated with ProtocolHandler ["ajp-bio-8009"]
+java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:187)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 03, 2018 6:28:27 PM org.apache.catalina.core.StandardService initInternal
+SEVERE: Failed to initialize connector [Connector[AJP/1.3-8009]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:840)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:654)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:679)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use (Bind failed) <null>:8009
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:728)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:452)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:187)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 16 more
+
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 580 ms
+Nov 03, 2018 6:28:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Nov 03, 2018 6:28:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.91
+Nov 03, 2018 6:28:27 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/03.war
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-logic is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-html is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-bean is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-tiles is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-nested is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-template is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-bean is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-html is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-logic is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-nested is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-template is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-tiles is already defined
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 6:28:28 PM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+Nov 03, 2018 6:28:28 PM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+Nov 03, 2018 6:28:28 PM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='ApplicationResources', returnNull=true
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/03.war has finished in 820 ms
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/docs
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/docs has finished in 38 ms
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/manager
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/manager has finished in 54 ms
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/examples
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/examples has finished in 171 ms
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/ROOT
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/ROOT has finished in 38 ms
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/host-manager
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/host-manager has finished in 45 ms
+Nov 03, 2018 6:28:28 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 1254 ms
+Nov 03, 2018 6:28:28 PM org.apache.catalina.core.StandardServer await
+SEVERE: StandardServer.await: create[localhost:8005]: 
+java.net.BindException: Address already in use (Bind failed)
+	at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:437)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:793)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:739)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+Nov 03, 2018 6:28:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Nov 03, 2018 6:28:28 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Nov 03, 2018 6:28:28 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Nov 03, 2018 6:28:28 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Nov 03, 2018 6:28:28 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Nov 03, 2018 6:28:28 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Nov 03, 2018 6:28:28 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Nov 03, 2018 6:29:10 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/03] has started
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+WARNING: Failed to open JAR [null]
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3414)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:3134)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:1409)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1897)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1771)
+	at org.apache.commons.collections.FastHashMap.keySet(Unknown Source)
+	at org.apache.struts.action.ActionServlet.destroyDataSources(ActionServlet.java:769)
+	at org.apache.struts.action.ActionServlet.destroy(ActionServlet.java:431)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1432)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1798)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5864)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4165)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1010)
+	at org.apache.catalina.manager.HTMLManagerServlet.reload(HTMLManagerServlet.java:624)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:203)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:603)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:194)
+	... 46 more
+Caused by: java.nio.file.NoSuchFileException: /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/03/WEB-INF/lib/sqljdbc4.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1755)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:951)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:216)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:148)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:324)
+	... 50 more
+
+Nov 03, 2018 6:29:10 PM org.apache.catalina.core.StandardWrapper unload
+SEVERE: InstanceManager.destroy() for servlet [action] threw exception
+java.lang.NullPointerException
+	at org.apache.catalina.core.DefaultInstanceManager.destroyInstance(DefaultInstanceManager.java:193)
+	at org.apache.catalina.core.StandardWrapper.unload(StandardWrapper.java:1455)
+	at org.apache.catalina.core.StandardWrapper.stopInternal(StandardWrapper.java:1798)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5864)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4165)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1010)
+	at org.apache.catalina.manager.HTMLManagerServlet.reload(HTMLManagerServlet.java:624)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:203)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:603)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase openJARs
+WARNING: Failed to open JAR [null]
+java.io.IOException: java.lang.reflect.InvocationTargetException
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:203)
+	at org.apache.catalina.loader.WebappClassLoaderBase.openJARs(WebappClassLoaderBase.java:3102)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResourceInternal(WebappClassLoaderBase.java:3414)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findResource(WebappClassLoaderBase.java:1494)
+	at org.apache.catalina.loader.WebappClassLoaderBase.getResourceAsStream(WebappClassLoaderBase.java:1722)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc(WebappClassLoaderBase.java:2316)
+	at org.apache.catalina.loader.WebappClassLoaderBase.clearReferences(WebappClassLoaderBase.java:2259)
+	at org.apache.catalina.loader.WebappClassLoaderBase.stop(WebappClassLoaderBase.java:2159)
+	at org.apache.catalina.loader.WebappLoader.stopInternal(WebappLoader.java:682)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5922)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:221)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:4165)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:1010)
+	at org.apache.catalina.manager.HTMLManagerServlet.reload(HTMLManagerServlet.java:624)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:203)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:603)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:318)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.apache.tomcat.util.compat.Jre9Compat.jarFileNewInstance(Jre9Compat.java:194)
+	... 43 more
+Caused by: java.nio.file.NoSuchFileException: /Users/mac/Desktop/apache-tomcat-7.0.91/webapps/03/WEB-INF/lib/sqljdbc4.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:145)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1755)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:951)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:216)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:148)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:324)
+	... 47 more
+
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: The web application [/03] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [/03] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Illegal access: this web application instance has been stopped already.  Could not load .  The eventual following stack trace is caused by an error thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access, and has no functional impact.
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-logic is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-html is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-bean is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-tiles is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-nested is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-template is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-bean is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-html is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-logic is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-nested is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-template is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TaglibUriRule body
+INFO: TLD skipped. URI: http://jakarta.apache.org/struts/tags-tiles is already defined
+Nov 03, 2018 6:29:10 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Nov 03, 2018 6:29:10 PM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+Nov 03, 2018 6:29:10 PM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+Nov 03, 2018 6:29:10 PM org.apache.struts.util.PropertyMessageResources <init>
+INFO: Initializing, config='ApplicationResources', returnNull=true
+Nov 03, 2018 6:29:10 PM org.apache.catalina.core.StandardContext reload
+INFO: Reloading Context with name [/03] is completed
